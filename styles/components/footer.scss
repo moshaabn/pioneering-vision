@@ -1,0 +1,43 @@
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  &__info {
+    width: 75%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 4rem;
+  }
+
+  &__logo {
+  }
+
+  &__text {
+    font-size: 2rem;
+    color: $dark-clr;
+  }
+
+  &__copyRight {
+    position: relative;
+    bottom: 0;
+    width: 75%;
+    margin: 0 auto;
+    background-color: $green-clr;
+    padding: 1rem;
+    -webkit-clip-path: polygon(2% 0, 98% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(2% 0, 98% 0, 100% 100%, 0% 100%);
+
+    p {
+      font-size: 2rem;
+      color: $white-clr;
+      text-align: center;
+    }
+  }
+}
