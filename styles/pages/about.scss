@@ -1,12 +1,5 @@
+// Frist Section
 .about {
-  width: 100vw;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 3rem;
-
   background: url(../../public/imgs/pattern.png) no-repeat center center/cover;
 
   &__img-box {
@@ -22,5 +15,66 @@
     text-align: center;
     font-size: 2rem;
     color: $grey-clr;
+  }
+}
+
+// Second Section, Third Section
+.values,
+.goals {
+  width: 60%;
+  img {
+    width: 100%;
+  }
+}
+
+// Fourth Section
+.ambition {
+  margin-top: 1rem;
+  background: url(../../public/imgs/pattern_color.png) no-repeat center
+    center/cover;
+
+  &__list {
+    margin-top: 5rem;
+    width: 90%;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    justify-items: center;
+    text-align: center;
+    grid-gap: 4rem;
+
+    img {
+      width: 10rem;
+    }
+  }
+
+  &__item {
+    align-self: center;
+  }
+}
+
+// Fifth Section
+.partners__container {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+
+  .partner {
+    padding: 4rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: all 0.3s;
+
+    img {
+      width: 100%;
+    }
+
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 }

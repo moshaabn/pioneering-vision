@@ -16,3 +16,18 @@ body {
   direction: rtl;
   overflow-x: hidden;
 }
+
+.section {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem;
+}
+
+::selection {
+  background-color: $green-clr;
+  color: $white-clr;
+}
