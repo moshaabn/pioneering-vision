@@ -1,0 +1,29 @@
+.nav {
+  &__list {
+    list-style: none;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 4rem;
+    font-size: 2rem;
+  }
+
+  .logo {
+    width: 10rem;
+    height: 10rem;
+  }
+
+  &__item {
+    list-style: none;
+  }
+
+  &__link {
+    text-decoration: none;
+    color: $dark-clr;
+
+    &:is(:hover, :focus, :active) {
+      border-bottom: 2px solid $sandy-clr;
+    }
+  }
+}
