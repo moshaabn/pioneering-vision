@@ -5,7 +5,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2rem;
+  gap: 3rem;
+
+  background: url(../../public/imgs/pattern.png) no-repeat center center/cover;
 
   &__img-box {
     width: 50%;
@@ -19,6 +21,6 @@
     width: 50%;
     text-align: center;
     font-size: 2rem;
-    color: $dark-clr;
+    color: $grey-clr;
   }
 }
