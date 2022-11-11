@@ -16,12 +16,15 @@ const SocialLinks = () => {
         </a>
       </li>
       <li className="social__item">
-        <a href="#" className="social__link">
+        <a
+          href="https://www.instagram.com/g20yeasaudi/?igshid=YmMyMTA2M2Y%3D"
+          className="social__link"
+        >
           <img src="/imgs/instagram.svg" alt="instagram" />
         </a>
       </li>
       <li className="social__item">
-        <a href="#" className="social__link">
+        <a href="https://twitter.com/G20YEAKSA" className="social__link">
           <img src="/imgs/twitter.png" alt="twitter" />
         </a>
       </li>
