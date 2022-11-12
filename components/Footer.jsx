@@ -3,7 +3,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer__info">
         <div className="footer__logo">
-          <img src="/imgs/logo.png" alt="logo" />
+          <img src="/imgs/partener_1.svg" alt="logo" />
         </div>
         <p className="footer__text">
           تحت إشراف المركز الوطني لتنمية القطاع غير الربحي

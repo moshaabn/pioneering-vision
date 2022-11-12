@@ -1,10 +1,9 @@
 .footer {
-  position: absolute;
-  bottom: 0;
   width: 100vw;
   display: flex;
   justify-content: center;
   flex-direction: column;
+  box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.1);
 
   &__info {
     width: 75%;
@@ -13,10 +12,14 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    gap: 4rem;
+    gap: 6rem;
   }
 
   &__logo {
+    width: 20rem;
+    img {
+      width: 100%;
+    }
   }
 
   &__text {

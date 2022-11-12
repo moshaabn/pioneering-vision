@@ -9,9 +9,30 @@
 html {
   // This defines what 1rem is
   font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+
+  @media screen and (max-width: 800px) {
+    font-size: 56.25%; //1 rem = 9px; 9px/16px = 56.25%
+  }
 }
 
 body {
   box-sizing: border-box;
   direction: rtl;
+  overflow-x: hidden;
+}
+
+.section {
+  width: 100vw;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  padding: 4rem;
+}
+
+::selection {
+  background-color: $green-clr;
+  color: $white-clr;
 }

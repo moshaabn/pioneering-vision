@@ -1,4 +1,5 @@
 import Head from 'next/head';
+import About from './about/index';
 
 const Home = () => {
   return (
@@ -10,7 +11,7 @@ const Home = () => {
       </Head>
 
       <main>
-        <h1>Hello world</h1>
+        <About />
       </main>
     </>
   );
