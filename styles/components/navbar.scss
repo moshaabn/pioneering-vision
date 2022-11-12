@@ -27,32 +27,3 @@
     }
   }
 }
-
-.menu-nav {
-  &__list {
-    list-style: none;
-    width: 100vw;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    gap: 4rem;
-    font-size: 2rem;
-  }
-
-  .logo {
-    width: 10rem;
-    height: 10rem;
-  }
-
-  .menu-icon {
-    cursor: pointer;
-    &__line {
-      width: 30px;
-      height: 3px;
-      background-color: $sandy-clr;
-      display: block;
-      margin: 0.5rem;
-      transition: all 0.3s ease-in-out;
-    }
-  }
-}
