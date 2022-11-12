@@ -16,12 +16,12 @@
     padding: 4rem;
     transition: all 0.3s;
 
-    &:first-child {
+    &:nth-child(even) {
       animation: slideIn 1s ease-in-out;
     }
 
-    &:nth-child(2) {
-      animation: slideOut 1s ease-in-out 0.2s;
+    &:nth-child(odd) {
+      animation: slideOut 1s ease-in-out;
     }
 
     &__img {
