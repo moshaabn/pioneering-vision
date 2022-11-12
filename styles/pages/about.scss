@@ -1,6 +1,7 @@
 // Frist Section
 .about {
   background: url(../../public/imgs/pattern.png) no-repeat center center/cover;
+  animation: fadeIn 1s ease-in-out;
 
   &__img-box {
     width: 50%;
@@ -47,6 +48,12 @@
   }
 }
 
+.values {
+  margin-top: 5rem;
+  animation: rotate 15s infinite linear;
+  z-index: -1;
+}
+
 // Fourth Section
 .ambition {
   margin-top: 1rem;
@@ -65,11 +72,17 @@
 
     img {
       width: 10rem;
+      cursor: pointer;
     }
   }
 
   &__item {
     align-self: center;
+    transition: all 0.3s;
+
+    &:hover {
+      transform: scale(1.1);
+    }
   }
 }
 
@@ -94,7 +107,7 @@
     }
 
     &:hover {
-      transform: scale(1.05);
+      transform: scale(1.1);
     }
   }
 }

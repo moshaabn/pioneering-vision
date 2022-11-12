@@ -11,9 +11,15 @@ body {
   font-weight: 700;
   color: $dark-clr;
   text-align: center;
+  transition: all 0.2s;
 
   span {
     color: $green-clr;
+  }
+
+  &:hover {
+    transform: skewY(2deg) skewX(15deg) scale(1.1);
+    text-shadow: 0.5rem 1rem 2rem rgba($dark-clr, 0.2);
   }
 }
 

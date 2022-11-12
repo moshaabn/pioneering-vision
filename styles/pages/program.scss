@@ -14,6 +14,15 @@
     box-shadow: 0 1.5rem 4rem rgba($dark-clr, 0.15);
     border-radius: 2.5rem;
     padding: 4rem;
+    transition: all 0.3s;
+
+    &:first-child {
+      animation: slideIn 1s ease-in-out;
+    }
+
+    &:nth-child(2) {
+      animation: slideOut 1s ease-in-out 0.2s;
+    }
 
     &__img {
       img {
