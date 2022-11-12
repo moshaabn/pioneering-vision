@@ -4,7 +4,11 @@ const About = () => {
       <section className="section about">
         <h2 className="heading-2">طريقك نحو الريادة</h2>
         <div className="about__img-box">
-          <img src="/imgs/video.png" alt="video" />
+          <video width="100%" height="100%" autoPlay muted loop >
+            <source src="/videos/Intro.mp4" type="video/mp4"/>
+            Your browser does not support the video tag.
+          </video>
+          {/* <img src="/videos/Intro.mp4" alt="video" /> */}
         </div>
         <p className="about__text">
           أن تكون جمعية رؤية الريادة عضوا قياديا في تطوير منظومة ريادة الاعمال
