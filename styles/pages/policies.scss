@@ -1,0 +1,54 @@
+.policies {
+  min-height: 60vh;
+
+  .upload-file {
+    width: 80%;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 2.5rem;
+    padding: 3rem;
+
+    .download {
+      margin-right: auto;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+
+      span {
+        font-size: 2.2rem;
+        font-weight: 400;
+      }
+
+      a {
+        animation: download 2s infinite;
+      }
+    }
+
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 2rem;
+      padding: 2rem;
+
+      .download {
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+@keyframes download {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(0.5rem);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
