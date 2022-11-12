@@ -37,31 +37,31 @@ const About = () => {
         <ul className="ambition__list">
           <li className="ambition__item">
             <img src="/imgs/workshope.png" alt="" />
-            <h3 className="heading-3">حققنا 30 ورشة عمل</h3>
+            <h4 className="heading-4">حققنا 30 ورشة عمل</h4>
           </li>
           <li className="ambition__item">
             <img src="/imgs/company.svg" alt="" />
-            <h3 className="heading-3">ساهمنا في تطوير 10 شركات </h3>
+            <h4 className="heading-4">ساهمنا في تطوير 10 شركات </h3>
           </li>
           <li className="ambition__item">
             <img src="/imgs/idea.svg" alt="" />
-            <h3 className="heading-3">احتضنا 20 فكرة ريادية</h3>
+            <h4 className="heading-4">احتضنا 20 فكرة ريادية</h4>
           </li>
           <li className="ambition__item">
             <img src="/imgs/research.svg" alt="" />
-            <h3 className="heading-3">قدمنا 3 بحوث علمية </h3>
+            <h4 className="heading-4">قدمنا 3 بحوث علمية </h4>
           </li>
           <li className="ambition__item">
             <img src="/imgs/volunteer.svg" alt="" />
-            <h3 className="heading-3">خلقنا 30 فرصة تطوعية </h3>
+            <h4 className="heading-4">خلقنا 30 فرصة تطوعية </h4>
           </li>
           <li className="ambition__item">
             <img src="/imgs/effective.svg" alt="" />
-            <h3 className="heading-3">15 شراكة مجتمعيه فاعله </h3>
+            <h4 className="heading-4">15 شراكة مجتمعيه فاعله </h4>
           </li>
           <li className="ambition__item">
             <img src="/imgs/beneficiary.svg" alt="" />
-            <h3 className="heading-3">30 الف مستفيد من برامجنا </h3>
+            <h4 className="heading-4">30 الف مستفيد من برامجنا </h4>
           </li>
         </ul>
       </section>
