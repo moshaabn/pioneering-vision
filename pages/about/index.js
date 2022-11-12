@@ -41,7 +41,7 @@ const About = () => {
           </li>
           <li className="ambition__item">
             <img src="/imgs/company.svg" alt="" />
-            <h4 className="heading-4">ساهمنا في تطوير 10 شركات </h3>
+            <h4 className="heading-4">ساهمنا في تطوير 10 شركات </h4>
           </li>
           <li className="ambition__item">
             <img src="/imgs/idea.svg" alt="" />
