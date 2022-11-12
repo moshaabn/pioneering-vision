@@ -40,7 +40,7 @@ const Menu = () => {
           </li>
         </ul>
         <button onClick={() => setOpen(false)} className="navbar-menu__close">
-          &#128473;
+          &times;
         </button>
       </nav>
     );
